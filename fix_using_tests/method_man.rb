@@ -3,13 +3,12 @@
 require 'pry'
 
 def start_game(player1, player2)
-  s1 = "Hello #{player1} & #{playar2}"
+  s = "Hello #{player1} & #{playar2}"
   binding.pry
-  return s1
+  return s
 end
 
 def play_game(player1, player2)
   s =  "#{player1} is better than #{player2}"
-  binding.pry
   return s
 end
