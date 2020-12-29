@@ -9,7 +9,7 @@ def start_game(player1, player2)
 end
 
 def play_game(player1, player2)
-  s2 =  "#{player1} is better than #{player2}"
+  s =  "#{player1} is better than #{player2}"
   binding.pry
-  return s2
+  return s
 end
